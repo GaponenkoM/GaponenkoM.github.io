@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stopwatch</title>
+	<link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<form id="stopwatch" title="Stopwatch" >
+			<p id="stopwatch__display">00:00:00.000</p>
+			<input type="button" id="stopwatch__start_btn" value="Start" onclick="Timer.Begin()">
+			<input type="button" id="stopwatch__stop_btn" value="Stop"   onclick="Timer.Stop()" class="hidden">
+			<input type="button" id="stopwatch__clear_btn" value="Clear" onclick="Timer.Reset()">
+		</form>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>

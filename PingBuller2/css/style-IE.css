@@ -1,0 +1,8 @@
+.background__img-rgba{
+	background: #000;
+	filter: alpha(Opacity=20);
+}
+
+.background__gradient{
+	background: url("../img/gradient.jpg");
+}
